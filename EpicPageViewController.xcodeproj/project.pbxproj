@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B7A88E6268C28C9007B8296 /* NufWelcomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A88E4268C28C9007B8296 /* NufWelcomePageView.swift */; };
+		4B7A88E7268C28C9007B8296 /* NufWelcomePageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B7A88E5268C28C9007B8296 /* NufWelcomePageView.xib */; };
+		4B7A88EA268C2C8E007B8296 /* NufWelcomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7A88E8268C2C8E007B8296 /* NufWelcomeScreenViewController.swift */; };
+		4B7A88EB268C2C8E007B8296 /* NufWelcomeScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B7A88E9268C2C8E007B8296 /* NufWelcomeScreenViewController.xib */; };
+		4B81AEDE26A24387000A3FDE /* NufWelcomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B81AEDC26A24386000A3FDE /* NufWelcomePageViewController.swift */; };
+		4B81AEDF26A24387000A3FDE /* NufWelcomePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B81AEDD26A24386000A3FDE /* NufWelcomePageViewController.xib */; };
 		4BAB5776268C206C000CB45C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAB5775268C206C000CB45C /* AppDelegate.swift */; };
 		4BAB5778268C206C000CB45C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAB5777268C206C000CB45C /* SceneDelegate.swift */; };
 		4BAB577A268C206C000CB45C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAB5779268C206C000CB45C /* ViewController.swift */; };
@@ -16,6 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B7A88E4268C28C9007B8296 /* NufWelcomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NufWelcomePageView.swift; sourceTree = "<group>"; };
+		4B7A88E5268C28C9007B8296 /* NufWelcomePageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NufWelcomePageView.xib; sourceTree = "<group>"; };
+		4B7A88E8268C2C8E007B8296 /* NufWelcomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NufWelcomeScreenViewController.swift; sourceTree = "<group>"; };
+		4B7A88E9268C2C8E007B8296 /* NufWelcomeScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NufWelcomeScreenViewController.xib; sourceTree = "<group>"; };
+		4B81AEDC26A24386000A3FDE /* NufWelcomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NufWelcomePageViewController.swift; sourceTree = "<group>"; };
+		4B81AEDD26A24386000A3FDE /* NufWelcomePageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NufWelcomePageViewController.xib; sourceTree = "<group>"; };
 		4BAB5772268C206C000CB45C /* EpicPageViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpicPageViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BAB5775268C206C000CB45C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BAB5777268C206C000CB45C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +75,12 @@
 				4BAB577E268C206E000CB45C /* Assets.xcassets */,
 				4BAB5780268C206E000CB45C /* LaunchScreen.storyboard */,
 				4BAB5783268C206E000CB45C /* Info.plist */,
+				4B7A88E4268C28C9007B8296 /* NufWelcomePageView.swift */,
+				4B81AEDC26A24386000A3FDE /* NufWelcomePageViewController.swift */,
+				4B81AEDD26A24386000A3FDE /* NufWelcomePageViewController.xib */,
+				4B7A88E5268C28C9007B8296 /* NufWelcomePageView.xib */,
+				4B7A88E8268C2C8E007B8296 /* NufWelcomeScreenViewController.swift */,
+				4B7A88E9268C2C8E007B8296 /* NufWelcomeScreenViewController.xib */,
 			);
 			path = EpicPageViewController;
 			sourceTree = "<group>";
@@ -124,9 +142,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B81AEDF26A24387000A3FDE /* NufWelcomePageViewController.xib in Resources */,
 				4BAB5782268C206E000CB45C /* LaunchScreen.storyboard in Resources */,
 				4BAB577F268C206E000CB45C /* Assets.xcassets in Resources */,
+				4B7A88EB268C2C8E007B8296 /* NufWelcomeScreenViewController.xib in Resources */,
 				4BAB577D268C206C000CB45C /* Main.storyboard in Resources */,
+				4B7A88E7268C28C9007B8296 /* NufWelcomePageView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,9 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B7A88EA268C2C8E007B8296 /* NufWelcomeScreenViewController.swift in Sources */,
 				4BAB577A268C206C000CB45C /* ViewController.swift in Sources */,
+				4B81AEDE26A24387000A3FDE /* NufWelcomePageViewController.swift in Sources */,
 				4BAB5776268C206C000CB45C /* AppDelegate.swift in Sources */,
 				4BAB5778268C206C000CB45C /* SceneDelegate.swift in Sources */,
+				4B7A88E6268C28C9007B8296 /* NufWelcomePageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X9J2SG7MB3;
 				INFOPLIST_FILE = EpicPageViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +333,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X9J2SG7MB3;
 				INFOPLIST_FILE = EpicPageViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

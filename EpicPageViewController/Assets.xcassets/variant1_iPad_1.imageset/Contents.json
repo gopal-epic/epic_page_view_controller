@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "Tablet A1.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}

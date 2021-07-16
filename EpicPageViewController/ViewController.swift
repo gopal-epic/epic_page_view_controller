@@ -12,8 +12,16 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        view.backgroundColor = .lightGray
+        
+        showNufWelcomeScreen()
     }
-
+    
+    func showNufWelcomeScreen() {
+        let nufWelcomeView = NufWelcomeScreenViewController()
+        navigationController?.pushViewController(nufWelcomeView, animated: true)
+    }
 
 }
 
